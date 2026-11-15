@@ -32,22 +32,22 @@ Learn to run open models on your own computer with **Ollama** and **LM Studio**,
 ### Tasks
 
 - [x] **Task 0.1 — Local LLM foundations:** Explain what a local LLM is, what inference means, and how local inference differs from a hosted API.
-- [ ] **Task 0.2 — Ollama basics:** Learn what Ollama does and what pulling a model, `run`, `serve`, its local API, and a Modelfile mean.
-- [ ] **Task 0.3 — LM Studio basics:** Explain its graphical model browser, downloader, chat interface, and local server mode; compare it with Ollama.
+- [x] **Task 0.2 — Ollama basics:** Learn what Ollama does and what pulling a model, `run`, `serve`, its local API, and a Modelfile mean.
+- [x] **Task 0.3 — LM Studio basics:** Explain its graphical model browser, downloader, chat interface, and local server mode; compare it with Ollama.
 - [x] **Task 0.4 — Model formats and quantization:** Understand FP16, 8-bit, 4-bit, GGUF, and the effect of quantization on size, memory, speed, and quality (no derivations needed).
 - [x] **Task 0.5 — Model families:** Research Llama, Qwen, Gemma, Mistral, Phi, and gpt-oss. Learn how to compare model size, task suitability, and licensing rather than memorizing rankings.
 - [x] **Task 0.6 — Hardware budgeting:** Learn the difference between RAM, VRAM, disk space, CPU, and GPU; understand why model size and context length affect feasibility.
 - [x] **Task 0.7 — OpenAI-compatible endpoints:** Understand `localhost`, ports, `base_url`, model identifiers, and why an application can target different providers using similar request formats.
-- [ ] **Task 0.8 — Model selection and deployment trade-offs:** Compare privacy, cost, latency, offline access, response quality, and license restrictions.
-- [ ] **Task 0.9 — Knowledge check:** Explain LO 4.1 through LO 4.5 in your own words and answer a short self-quiz.
+- [x] **Task 0.8 — Model selection and deployment trade-offs:** Compare privacy, cost, latency, offline access, response quality, and license restrictions.
+- [x] **Task 0.9 — Knowledge check:** Explain LO 4.1 through LO 4.5 in your own words and answer a short self-quiz.
 
 ### Completion Criteria
 
-- [ ] I can explain every topic above without relying on copied definitions.
-- [ ] I can describe how a prompt travels through a local application to a model and back.
-- [ ] I can explain why a 4-bit GGUF model may fit hardware that cannot run an FP16 version.
-- [ ] I can state when local inference is preferable and when hosted inference is preferable.
-- [ ] I can describe how I would select a model for a given task and machine.
+- [x] I can explain every topic above without relying on copied definitions.
+- [x] I can describe how a prompt travels through a local application to a model and back.
+- [x] I can explain why a 4-bit GGUF model may fit hardware that cannot run an FP16 version.
+- [x] I can state when local inference is preferable and when hosted inference is preferable.
+- [x] I can describe how I would select a model for a given task and machine.
 
 **Evidence:** `notes/milestone_0_concepts.md` (your own explanations, comparison, and quiz answers).
 
