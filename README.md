@@ -59,20 +59,20 @@ Learn to run open models on your own computer with **Ollama** and **LM Studio**,
 
 ### Tasks
 
-- [ ] **Task 1.1 — Inspect your machine:** Record operating system, installed RAM, GPU/VRAM (if any), and available disk space.
-- [ ] **Task 1.2 — Install and verify Ollama:** Use official instructions appropriate for your OS. Confirm that it is available in your terminal.
-- [ ] **Task 1.3 — Select two models:** Choose one small and one mid-size model based on your hardware, task quality needs, and license. Record identifiers and download sizes. *Mid-size is relative to available hardware; do not force a model that cannot fit.*
-- [ ] **Task 1.4 — Pull the small model:** Download it and confirm that Ollama recognizes it.
-- [ ] **Task 1.5 — Chat from the terminal:** Send a small set of repeatable prompts and save observations.
-- [ ] **Task 1.6 — Pull and test the mid-size model:** Use the same prompts and note memory/performance differences.
-- [ ] **Task 1.7 — Compare results:** Record which model gave more useful answers and which ran more comfortably.
+- [x] **Task 1.1 — Inspect your machine:** Record operating system, installed RAM, GPU/VRAM (if any), and available disk space.
+- [x] **Task 1.2 — Install and verify Ollama:** Use official instructions appropriate for your OS. Confirm that it is available in your terminal.
+- [x] **Task 1.3 — Select two models:** Choose one small and one mid-size model based on your hardware, task quality needs, and license. Record identifiers and download sizes. *Mid-size is relative to available hardware; do not force a model that cannot fit.*
+- [x] **Task 1.4 — Pull the small model:** Download it and confirm that Ollama recognizes it.
+- [x] **Task 1.5 — Chat from the terminal:** Send a small set of repeatable prompts and save observations.
+- [x] **Task 1.6 — Pull and test the mid-size model:** Use the same prompts and note memory/performance differences.
+- [x] **Task 1.7 — Compare results:** Record which model gave more useful answers and which ran more comfortably.
 
 ### Completion Criteria
 
-- [ ] Ollama works on my computer.
-- [ ] I can launch each of the two models from the terminal.
-- [ ] Both models respond to comparable prompts.
-- [ ] I have documented the chosen models, hardware, and qualitative differences.
+- [x] Ollama works on my computer.
+- [x] I can launch each of the two models from the terminal.
+- [x] Both models respond to comparable prompts.
+- [x] I have documented the chosen models, hardware, and qualitative differences.
 
 **Evidence:** `labs/lab_4_1/README.md` with setup notes, prompt examples, observations, and optional screenshots.  
 **Checkpoint:** Do not move on until both models have been tested, or a hardware limitation has been documented and discussed.
