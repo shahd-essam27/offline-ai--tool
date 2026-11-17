@@ -160,21 +160,21 @@ Learn to run open models on your own computer with **Ollama** and **LM Studio**,
 
 ### Tasks
 
-- [ ] **Task 5.1 — Define the problem:** State the intended user, what the tool accepts, and what it should return.
-- [ ] **Task 5.2 — Specify acceptance tests:** Define at least three realistic test cases and expected behavior before coding.
-- [ ] **Task 5.3 — Design components:** Sketch input → preprocessing → local/hosted inference → output. Keep inference separate from app logic.
-- [ ] **Task 5.4 — Implement an offline-first CLI or small app:** Make the core task work with Ollama while the internet is disconnected (after models and dependencies are installed).
-- [ ] **Task 5.5 — Add the optional hosted flag:** Keep the local model as the normal/default option; require credentials only for hosted mode.
-- [ ] **Task 5.6 — Validate and handle errors:** Cover invalid inputs, unavailable model/server, and hosted configuration errors.
-- [ ] **Task 5.7 — Perform real tests:** Run the acceptance cases locally and, where available, with hosted inference.
+- [x] **Task 5.1 — Define the problem:** State the intended user, what the tool accepts, and what it should return.
+- [x] **Task 5.2 — Specify acceptance tests:** Define at least three realistic test cases and expected behavior before coding.
+- [x] **Task 5.3 — Design components:** Sketch input → preprocessing → local/hosted inference → output. Keep inference separate from app logic.
+- [x] **Task 5.4 — Implement an offline-first CLI or small app:** Make the core task work with Ollama while the internet is disconnected (after models and dependencies are installed).
+- [x] **Task 5.5 — Add the optional hosted flag:** Keep the local model as the normal/default option; require credentials only for hosted mode.
+- [x] **Task 5.6 — Validate and handle errors:** Cover invalid inputs, unavailable model/server, and hosted configuration errors.
+- [x] **Task 5.7 — Perform real tests:** Run the acceptance cases locally and, where available, with hosted inference.
 
 ### Completion Criteria
 
-- [ ] The app solves its stated task.
-- [ ] Core functionality works with internet disabled after initial setup.
-- [ ] An optional flag can select the hosted backend.
-- [ ] At least three documented acceptance tests pass.
-- [ ] The code is written and understood by me.
+- [x] The app solves its stated task.
+- [x] Core functionality works with internet disabled after initial setup.
+- [x] An optional flag can select the hosted backend.
+- [x] At least three documented acceptance tests pass.
+- [x] The code is written and understood by me.
 
 **Evidence:** Working code in `final_project/`, instructions, example input/output, and test notes.
 
