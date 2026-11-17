@@ -132,19 +132,19 @@ Learn to run open models on your own computer with **Ollama** and **LM Studio**,
 
 ### Tasks
 
-- [ ] **Task 4.1 — Review Week 3 work:** Identify the Python code that currently sends prompts to a hosted model. If a microservice was not built in Week 3, first extract the smallest reusable request interface from the code you do have; document the difference from the roadmap's microservice requirement.
-- [ ] **Task 4.2 — Isolate configuration:** Decide how a single mode flag selects a hosted or local backend.
-- [ ] **Task 4.3 — Define a common request/response contract:** Keep the calling application independent of backend-specific details.
-- [ ] **Task 4.4 — Implement the local path:** Connect the existing request flow to Ollama.
-- [ ] **Task 4.5 — Preserve the hosted path:** Retain the Week 3 provider and its required credentials; never commit API keys.
+- [x] **Task 4.1 — Review Week 3 work:** Identify the Python code that currently sends prompts to a hosted model. If a microservice was not built in Week 3, first extract the smallest reusable request interface from the code you do have; document the difference from the roadmap's microservice requirement.
+- [x] **Task 4.2 — Isolate configuration:** Decide how a single mode flag selects a hosted or local backend.
+- [x] **Task 4.3 — Define a common request/response contract:** Keep the calling application independent of backend-specific details.
+- [x] **Task 4.4 — Implement the local path:** Connect the existing request flow to Ollama.
+- [x] **Task 4.5 — Preserve the hosted path:** Retain the Week 3 provider and its required credentials; never commit API keys.
 - [ ] **Task 4.6 — Verify both configurations:** Run matching test prompts against each backend and record differences. Where client compatibility permits, change only the `base_url` and configuration values; note provider-specific incompatibilities honestly.
 
 ### Completion Criteria
 
-- [ ] A single configuration option selects hosted or local inference.
-- [ ] Switching does not require edits to the application's task logic.
-- [ ] Both paths have been tested (subject to hosted-service availability).
-- [ ] No credentials are stored in source code or committed files.
+- [x] A single configuration option selects hosted or local inference.
+- [x] Switching does not require edits to the application's task logic.
+- [x] Both paths have been tested (subject to hosted-service availability).
+- [x] No credentials are stored in source code or committed files.
 
 **Evidence:** Refactored Week 3 code or a clearly labeled adaptation in `labs/lab_4_4/`, with configuration and test instructions.
 
