@@ -85,19 +85,19 @@ Learn to run open models on your own computer with **Ollama** and **LM Studio**,
 
 ### Tasks
 
-- [ ] **Task 2.1 — Understand the architecture:** Sketch Python client → local HTTP endpoint → Ollama → model → response.
-- [ ] **Task 2.2 — Prepare Python:** Create or activate a virtual environment in VS Code; install only required packages; begin tracking dependencies in `requirements.txt`.
-- [ ] **Task 2.3 — Check the local server:** Confirm the Ollama API is reachable on your machine.
-- [ ] **Task 2.4 — Build a minimal Python client:** Use an OpenAI-compatible client with a local `base_url` and a locally installed model identifier.
-- [ ] **Task 2.5 — Inspect the response:** Display the answer, identify relevant response fields, and handle a failed connection or missing model cleanly.
-- [ ] **Task 2.6 — Test and document:** Compare terminal and Python calls for the same prompt.
+- [x] **Task 2.1 — Understand the architecture:** Sketch Python client → local HTTP endpoint → Ollama → model → response.
+- [x] **Task 2.2 — Prepare Python:** Create or activate a virtual environment in VS Code; install only required packages; begin tracking dependencies in `requirements.txt`.
+- [x] **Task 2.3 — Check the local server:** Confirm the Ollama API is reachable on your machine.
+- [x] **Task 2.4 — Build a minimal Python client:** Use an OpenAI-compatible client with a local `base_url` and a locally installed model identifier.
+- [x] **Task 2.5 — Inspect the response:** Display the answer, identify relevant response fields, and handle a failed connection or missing model cleanly.
+- [x] **Task 2.6 — Test and document:** Compare terminal and Python calls for the same prompt.
 
 ### Completion Criteria
 
-- [ ] A Python script calls a local model successfully.
-- [ ] The application does not need a paid API key to make its local call.
-- [ ] I understand the role of the endpoint, model name, and client library.
-- [ ] A predictable failure displays a useful error rather than a confusing crash.
+- [x] A Python script calls a local model successfully.
+- [x] The application does not need a paid API key to make its local call.
+- [x] I understand the role of the endpoint, model name, and client library.
+- [x] A predictable failure displays a useful error rather than a confusing crash.
 
 **Evidence:** Your own script under `labs/lab_4_2/`, plus short usage and test notes.
 
