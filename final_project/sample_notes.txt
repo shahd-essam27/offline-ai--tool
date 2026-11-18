@@ -1,0 +1,9 @@
+Today I studied local language models.
+
+Ollama allows developers to run language models on their own computers without sending prompts to external APIs.
+
+Qwen2.5 3B uses fewer resources than Qwen2.5 7B, making it suitable for laptops with limited memory.
+
+Quantization reduces the precision of model weights to decrease memory requirements.
+
+My next goal is to compare model performance and finish the Week 4 project.
