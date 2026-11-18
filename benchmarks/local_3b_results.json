@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5:3b",
+  "prompt": "Explain what quantization does for a local language model in exactly two sentences.",
+  "temperature": 0,
+  "max_generated_tokens": 120,
+  "results": [
+    {
+      "generated_tokens": 71,
+      "generation_tokens_per_sec": 13.17,
+      "total_seconds": 35.516,
+      "answer": "Quantization is a technique used to reduce the precision of the weights and activations in a neural network, typically from floating-point to lower precision formats like quantized integers. For a local language model, quantization can significantly reduce the model's memory footprint and computational requirements without substantially compromising its performance, making it more efficient for deployment on resource-constrained devices."
+    },
+    {
+      "generated_tokens": 71,
+      "generation_tokens_per_sec": 14.56,
+      "total_seconds": 4.963,
+      "answer": "Quantization is a technique used to reduce the precision of the weights and activations in a neural network, typically from floating-point to lower precision formats like quantized integers. For a local language model, quantization can significantly reduce the model's memory footprint and computational requirements without substantially compromising its performance, making it more efficient for deployment on resource-constrained devices."
+    }
+  ],
+  "mean_generation_tokens_per_sec": 13.87
+}
